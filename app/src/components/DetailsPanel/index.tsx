@@ -42,7 +42,6 @@ export const DetailsPanel = ({ selectedGotchi }: Props) => {
               </p>
               <p>{selectedGotchi?.withSetsNumericTraits[0]}</p>
             </div>
-            {renderModifier('Move speed', calculatePercentage(selectedGotchi?.withSetsNumericTraits[i] as number))}
           </>
         );
       case 1:
